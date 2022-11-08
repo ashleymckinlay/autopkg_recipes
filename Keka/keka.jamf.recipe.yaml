@@ -5,7 +5,7 @@ MinimumVersion: '1.2'
 
 Input:
   NAME: Keka
-  SOFTWARE_TITLE: %NAME%
+  SOFTWARE_TITLE: '%NAME%'
   CATEGORY: Applications
   GROUP_NAME: '%NAME%-update-smart'
   GROUP_TEMPLATE: SmartGroup-update-smart.xml
