@@ -1,6 +1,6 @@
 Description: Downloads the latest version of the Keka Archive App, then uploads to your Jamf Pro instance.
 Identifier: com.github.ashleymckinlay.jamf.keka
-ParentRecipe: com.github.fishd72.pgk.keka
+ParentRecipe: com.github.fishd72.pkg.keka
 MinimumVersion: '2.3'
 
 Input:
