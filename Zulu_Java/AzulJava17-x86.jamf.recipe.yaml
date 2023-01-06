@@ -16,7 +16,7 @@ ParentRecipe: com.github.ashleymckinlay.pkg.AzulZuluJava17
 
 Input:
   NAME: AzulZuluJava
-  JAVA_MAJOR_VERSION: "18"
+  JAVA_MAJOR_VERSION: "17"
   ARCHITECTURE: x86
   BUNDLE_TYPE: jdk
   JAMF_CATEGORY: Developer Tools

@@ -10,14 +10,14 @@ Description: |
   SMB_URL, SMB_USERNAME and SMB_PASSWORD, are expected to be populated
   in your AutoPkg preferences, override Input variables, or by
   command-line keys.
-Identifier: com.github.ashleymckinlay.jamf.AzulZuluJava19
+Identifier: com.github.ashleymckinlay.jamf.AzulZuluJava8
 MinimumVersion: 2.3.0
-ParentRecipe: com.github.ashleymckinlay.pkg.AzulZuluJava19
+ParentRecipe: com.github.ashleymckinlay.pkg.AzulZuluJava8
 
 Input:
   NAME: AzulZuluJava
-  JAVA_MAJOR_VERSION: "19"
-  ARCHITECTURE: x86
+  JAVA_MAJOR_VERSION: "8"
+  ARCHITECTURE: arm
   BUNDLE_TYPE: jdk
   JAMF_CATEGORY: Developer Tools
   JAMF_CATEGORY_PRIORITY: '10'

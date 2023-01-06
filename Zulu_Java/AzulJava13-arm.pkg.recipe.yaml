@@ -4,13 +4,13 @@ Description: |
   and copies the package.
   Architectures: x86, arm
   Bundle Types: jre, jdk, jre_fx, jdk_fx
-Identifier: com.github.ashleymckinlay.pkg.AzulZuluJava19
-ParentRecipe: com.github.ashleymckinlay.download.AzulZuluJava19
+Identifier: com.github.ashleymckinlay.pkg.AzulZuluJava13
+ParentRecipe: com.github.ashleymckinlay.download.AzulZuluJava13
 MinimumVersion: 2.3.0
 
 Input:
   NAME: AzulZuluJava
-  JAVA_MAJOR_VERSION: "19"
+  JAVA_MAJOR_VERSION: "13"
   ARCHITECTURE: arm
   DOWNLOAD_FILE_EXTENSION: dmg
   BUNDLE_TYPE: jdk

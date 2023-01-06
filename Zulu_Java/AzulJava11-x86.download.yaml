@@ -5,13 +5,13 @@ Description: |
   Architectures: x86, arm
   Extensions: zip, tar.gz, dmg
   Bundle Types: jre, jdk, jre_fx, jdk_fx
-Identifier: com.github.ashleymckinlay.download.AzulZuluJava19
+Identifier: com.github.ashleymckinlay.download.AzulZuluJava11
 MinimumVersion: 2.3.0
 
 Input:
   NAME: AzulZuluJava
-  JAVA_MAJOR_VERSION: "19"
-  ARCHITECTURE: arm
+  JAVA_MAJOR_VERSION: "11"
+  ARCHITECTURE: x86
   DOWNLOAD_FILE_EXTENSION: dmg
   BUNDLE_TYPE: jdk
 
